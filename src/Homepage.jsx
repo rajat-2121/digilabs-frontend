@@ -6,6 +6,7 @@ import wise from '../companyLogo/wise.svg';
 import star from '../companyLogo/star.svg';
 import mesh from '../companyLogo/mesh.svg';
 import arrow from '../companyLogo/arrow.svg';
+import arrow2 from '../companyLogo/arrow2.svg';
 import one from '../companyLogo/1.svg';
 import two from '../companyLogo/2.svg';
 import three from '../companyLogo/3.svg';
@@ -51,11 +52,15 @@ const Homepage = () => {
       </div>
       <div className="middlepage upper">
         <h2>Elevating Card Programs with Cutting-Edge Technology</h2>
-        <h3>
+        <h3 className="mb-5">
           consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
           labore et dolore magna aliqua.
         </h3>
-        <h4>compare all the premium features</h4>
+
+        <div className="fs-5" style={{fontWeight: "600", color: "#582066"}}>
+          compare all the premium features &nbsp;
+          <img src={arrow2} alt="arrow2" />
+        </div>
 
         <div className="feature">
           <div className="card1">
@@ -111,11 +116,14 @@ const Homepage = () => {
       <div className="lower-page middlepage upper">
         <h2>Elevating Card Programs with Cutting-Edge Technology</h2>
 
-        <h3>
+        <h3 className="mb-5">
           consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
           labore et dolore magna aliqua.
         </h3>
-        <h4>compare all the premium features</h4>
+        <div className="fs-5" style={{fontWeight: "600", color: "#582066"}}>
+          compare all the pro features &nbsp;
+          <img src={arrow2} alt="arrow2" />
+        </div>
       </div>
 
       <div className="container spending">
