@@ -6,8 +6,8 @@ const Navbar = () => {
     <>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            Navbar
+          <a class="navbar-brand" style={{fontWeight: "700" }} href="#">
+            Mode UI
           </a>
           <button
             class="navbar-toggler"

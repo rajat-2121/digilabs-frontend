@@ -6,6 +6,18 @@ import wise from '../companyLogo/wise.svg';
 import star from '../companyLogo/star.svg';
 import mesh from '../companyLogo/mesh.svg';
 import arrow from '../companyLogo/arrow.svg';
+import one from '../companyLogo/1.svg';
+import two from '../companyLogo/2.svg';
+import three from '../companyLogo/3.svg';
+import five from '../companyLogo/5.svg';
+import six from '../companyLogo/6.svg';
+import seven from '../companyLogo/7.svg';
+import eight from '../companyLogo/8.svg';
+import nine from '../companyLogo/9.svg';
+import ten from '../companyLogo/10.svg';
+import eleven from '../companyLogo/11.svg';
+import twelve from '../companyLogo/12.svg';
+import profile from '../companyLogo/profile.svg';
 
 const Homepage = () => {
   return (
@@ -28,13 +40,14 @@ const Homepage = () => {
       </div>
 
       <div className="companies">
-        <img src="./companyLogo/1.png" alt="company1" />
-        <img src="./companyLogo/2.png" alt="company2" />
-        <img src="./companyLogo/3.png" alt="company3" />
-        <img src="./companyLogo/4.png" alt="company4" />
-        <img src="./companyLogo/5.png" alt="company5" />
-        <img src="./companyLogo/6.png" alt="company6" />
-        <img src="./companyLogo/7.png" alt="company7" />
+        <img src={one} alt="company1" />
+        <img src={two} alt="company2" />
+        <img src={three} alt="company3" />
+        <img src={wise} alt="company4" />
+
+        <img src={five} alt="company5" />
+        <img src={six} alt="company6" />
+        <img src={seven} alt="company7" />
       </div>
       <div className="middlepage upper">
         <h2>Elevating Card Programs with Cutting-Edge Technology</h2>
@@ -49,7 +62,7 @@ const Homepage = () => {
             <div className="photo">
               <img
                 className=""
-                src="./companyLogo/8.png"
+                src={eight}
                 alt="Card1 image cap"
               />
             </div>
@@ -65,7 +78,7 @@ const Homepage = () => {
             <div className="photo">
               <img
                 className=""
-                src="./companyLogo/9.png"
+                src={nine}
                 alt="Card1 image cap"
               />
             </div>
@@ -81,7 +94,7 @@ const Homepage = () => {
             <div className="photo">
               <img
                 className=""
-                src="./companyLogo/10.png"
+                src={ten}
                 alt="Card1 image cap"
               />
             </div>
@@ -107,8 +120,8 @@ const Homepage = () => {
 
       <div className="container spending">
 
-          <img src="./companyLogo/11.png" alt="" />
-          <img src="./companyLogo/12.png" alt="" />
+          <img src={eleven} alt="mobile img1" />
+          <img src={twelve} alt="mobile img2" />
       </div>
 
       <div className="container stats d-flex m-50">
@@ -152,7 +165,7 @@ const Homepage = () => {
               such innovation in the financial industry.
             </p>
             <div className="photo">
-              <img className="" src="image.png" alt="Card image cap" />
+              <img className="" src={profile} alt="Card image cap" />
               <div className="fs-5">Nick Babich</div>
               <div className="fs-6 mb-1 text-muted">Lead Designer</div>
               <div>
