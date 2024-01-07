@@ -28,13 +28,13 @@ const Homepage = () => {
       </div>
 
       <div className="companies">
-        <img src="./companyLogo/1.png" alt="" />
-        <img src="./companyLogo/2.png" alt="" />
-        <img src="./companyLogo/3.png" alt="" />
-        <img src="./companyLogo/4.png" alt="" />
-        <img src="./companyLogo/5.png" alt="" />
-        <img src="./companyLogo/6.png" alt="" />
-        <img src="./companyLogo/7.png" alt="" />
+        <img src="./companyLogo/1.png" alt="company1" />
+        <img src="./companyLogo/2.png" alt="company2" />
+        <img src="./companyLogo/3.png" alt="company3" />
+        <img src="./companyLogo/4.png" alt="company4" />
+        <img src="./companyLogo/5.png" alt="company5" />
+        <img src="./companyLogo/6.png" alt="company6" />
+        <img src="./companyLogo/7.png" alt="company7" />
       </div>
       <div className="middlepage upper">
         <h2>Elevating Card Programs with Cutting-Edge Technology</h2>
