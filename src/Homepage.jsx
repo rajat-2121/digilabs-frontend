@@ -10,7 +10,7 @@ import arrow from '../companyLogo/arrow.svg';
 const Homepage = () => {
   return (
     <div>
-       <div className="upper landing-page" style={{backgroundImage: `url(${mesh})`}}>
+      <div className="upper landing-page" style={{backgroundImage: `url(${mesh})`}}>
         <p className="fs-5">Seamless Experience</p>
         <h1>Unleashing the Next Generation of Card Solutions</h1>
         <h3>
@@ -184,7 +184,7 @@ const Homepage = () => {
       <div className="modeui d-flex justify-content-center flex-column mb-3">
         <div className="fs-4 m-3  m-auto" style={{fontWeight: "500"}}>Mode UI</div>
         
-        <div className="upper fs-4" style={{ border: "none"}}>
+        <div className="upper fs-4">
           Mode UI is a comprehensive design system that empowers designers and developers to create cohesive and visually stunning user interfaces across various platforms and devices
         </div>
       </div> 
